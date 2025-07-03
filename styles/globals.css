@@ -9,7 +9,9 @@
     --foreground: #ededed;
   }
 }
-
+@import './style1.css';
+@import './style2.css';
+@import './style3.css';
 html,
 body {
   max-width: 100vw;

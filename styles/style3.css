@@ -1,0 +1,278 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: #0B0F0E;
+}
+
+@font-face {
+    font-family: 'ClashGrotesk-Extralight';
+    src: url('./fonts/ClashGrotesk-Extralight.woff2') format('woff2'),
+        url('./fonts/ClashGrotesk-Extralight.woff') format('woff'),
+        url('../fonts/ClashGrotesk-Extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashGrotesk-Light';
+    src: url('./fonts/ClashGrotesk-Light.woff2') format('woff2'),
+        url('./fonts/ClashGrotesk-Light.woff') format('woff'),
+        url('./fonts/ClashGrotesk-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashGrotesk-Regular';
+    src: url('./fonts/ClashGrotesk-Regular.woff2') format('woff2'),
+        url('./fonts/ClashGrotesk-Regular.woff') format('woff'),
+        url('./fonts/ClashGrotesk-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashGrotesk-Medium';
+    src: url('./fonts/ClashGrotesk-Medium.woff2') format('woff2'),
+        url('./fonts/ClashGrotesk-Medium.woff') format('woff'),
+        url('./fonts/ClashGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashGrotesk-Semibold';
+    src: url('./fonts/ClashGrotesk-Semibold.woff2') format('woff2'),
+        url('./fonts/ClashGrotesk-Semibold.woff') format('woff'),
+        url('./fonts/ClashGrotesk-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashGrotesk-Bold';
+    src: url('./fonts/ClashGrotesk-Bold.woff2') format('woff2'),
+        url('./fonts/ClashGrotesk-Bold.woff') format('woff'),
+        url('./fonts/ClashGrotesk-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashGrotesk-Variable';
+    src: url('./fonts/ClashGrotesk-Variable.woff2') format('woff2'),
+        url('./fonts/ClashGrotesk-Variable.woff') format('woff'),
+        url('./fonts/ClashGrotesk-Variable.ttf') format('truetype');
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+body {
+
+    font-family: ClashGrotesk-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rbga(255, 255, 255, 0.9);
+}
+
+h1 {
+    font-size: 58px;
+    line-height: 120%;
+    letter-spacing: -0.2px;
+    font-family: ClashGrotesk-Semibold;
+
+}
+
+h2 {
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 140%;
+    letter-spacing: -0.2px;
+    font-family: ClashGrotesk-Semibold;
+
+}
+
+p {
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0px;
+    font-family: ClashGrotesk-Regular;
+}
+header {
+    max-width: 1536px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+section {
+    max-width: 1536px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 54px;
+}
+.section1-text1
+{
+    display: flex;
+    gap:8px;
+    align-items: center;
+}
+.section1-text1 img
+{
+    width:12px;
+    height:12px;
+}
+.section2-details
+{
+    
+}
+footer {
+    margin: 0 auto;
+    margin-top: 108px;
+    background-color: #F7F7F7;
+}
+
+.footer-text {
+    width: 100%;
+    max-width: 1536px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 82px;
+    padding-bottom: 82px;
+}
+.borderBlack {
+    color: white;
+    background-color: #1D2322;
+    padding: 14px 58px;
+    font-family: ClashGrotesk-Semibold;
+    line-height: 140%;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.borderBlack:hover {
+    opacity: 0.9;
+}
+
+.borderWhite {
+    color: #1D2322;
+    background-color: white;
+    padding: 13px 57px;
+    font-family: ClashGrotesk-Semibold;
+    line-height: 140%;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #1D2322;
+}
+
+.borderWhite:hover {
+    color: white;
+    background-color: #1D2322;
+}
+.nogoon {
+    color: #1E4C2F;
+}
+.border
+{
+    border:1px solid #C4C8CC;
+    border-radius: 12px;
+    padding:16px 11px;
+    margin-top:12px;
+    font-size:15px;
+    color:#818B9C;
+}
+.between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1 {
+    display: block;
+}
+
+.nav2 {
+    display: none;
+}
+
+.nav3 {
+    display: none;
+}
+
+.nav6 {
+    display: none;
+}
+
+@media (max-width: 1280px) 
+{
+
+}
+@media (max-width: 1024px) 
+{
+    
+}
+@media (max-width: 960px) 
+{
+    
+}
+@media (max-width: 768px) 
+{
+    
+}
+@media (max-width: 600px) 
+{
+    
+}
+@media (max-width: 540px) 
+{
+    
+}
+@media (max-width: 430px) 
+{
+    
+}
+@media (max-width: 390px) 
+{
+    
+}
