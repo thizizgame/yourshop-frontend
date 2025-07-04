@@ -111,23 +111,5 @@ export default function HomePage() {
             <Image src="/images/ipad.png" alt="iPad" width={400} height={400} />
           </div>
           <div>
-            <h2>iPad Air Gen 5</h2>
-            <p>
-              <br />
-              Lorem ipsum dolor sit amet consectetur. Integer <br />
-              cursus cursus in sapien quam risus sed diam.
-              <br />
-              <br />
-            </p>
-            <Link href="#" className="borderBlack" style={{ marginRight: "16px" }}>
-              Buy 900$
-            </Link>
-            <Link href="#" className="borderWhite">
-              View Detail
-            </Link>
-          </div>
-        </div>
-      </section>
-    </main>
   );
 }
