@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import Header from '@/components/header';
+import Footer from '@/components/footer';
 import { client } from '@/lib/sanityClient';
 import { allProductsQuery } from '@/lib/queries';
 
@@ -80,7 +80,7 @@ export default function HomePage({ products }: any) {
                 </div>
               ))
             ) : (
-              <p style={{ padding: '20px' }}>Бүтээгдэхүүн олдсонгүй. hehe</p>
+              <p style={{ padding: '20px' }}>Бүтээгдэхүүн олдсонгүй. heh odoo bol gishiime</p>
             )}
           </div>
         </section>
