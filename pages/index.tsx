@@ -80,7 +80,7 @@ export default function HomePage({ products }: any) {
                 </div>
               ))
             ) : (
-              <p style={{ padding: '20px' }}>Бүтээгдэхүүн олдсонгүй.</p>
+              <p style={{ padding: '20px' }}>Бүтээгдэхүүн олдсонгүй. hehe</p>
             )}
           </div>
         </section>
